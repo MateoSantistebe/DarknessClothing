@@ -14,10 +14,14 @@ body {
 }
 
 /*header*/
+.navbar {
+  height: 150px !important;
+  width: 100% !important;
+}
+
 .bg-propio {
   background-color: black;
   position: fixed;
-  width: 100%;
   top: 0;
 }
 
@@ -39,55 +43,6 @@ body {
 .navbar-brand img {
   width: auto;
   height: 40px;
-}
-
-/*footer*/
-footer {
-  height: 100px;
-  width: 100%;
-  background-color: black;
-  display: -ms-grid;
-  display: grid;
-      grid-template-areas: "redes" "copy";
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-footer p {
-  font-size: 1.3rem;
-  color: white;
-  grid-area: "copy";
-}
-
-.redes {
-  display: -ms-grid;
-  display: grid;
-  gap: 1rem;
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: redes;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.redes a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.3rem;
-}
-
-.bi-instagram {
-  color: white;
-  font-size: 2rem;
-}
-
-.bi-instagram:hover {
-  color: red;
 }
 
 /* Index */
@@ -240,10 +195,6 @@ th:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.contacto:hover {
-  color: red;
 }
 
 .casilla, .casillaTexto {

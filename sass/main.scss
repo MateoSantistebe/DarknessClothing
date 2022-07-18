@@ -14,10 +14,15 @@ body {
 }
 
 /*header*/
+
+.navbar{
+  height: 150px!important;
+  width: 100%!important;
+}
+
 .bg-propio {
   background-color: black;
   position: fixed;
-  width: 100%;
   top: 0;
 }
 
@@ -39,45 +44,6 @@ body {
 .navbar-brand img {
   width: auto;
   height: 40px;
-}
-
-/*footer*/
-footer {
-  height: 100px;
-  width: 100%;
-  background-color: black;
-  display: grid;
-  grid-template-areas: "redes" "copy";
-  justify-content: center;
-  align-items: center;
-}
-
-footer p {
-  font-size: 1.3rem;
-  color: white;
-  grid-area: "copy";
-}
-
-.redes {
-  display: grid;
-  gap: 1rem;
-  grid-area: redes;
-  justify-content: center;
-}
-
-.redes a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.3rem;
-}
-
-.bi-instagram {
-  color: white;
-  font-size: 2rem;
-}
-
-.bi-instagram:hover {
-  color: red;
 }
 
 /* Index */
@@ -215,10 +181,6 @@ th:hover {
   margin-top: 30px;
   text-align: center;
   justify-content: center;
-}
-
-.contacto:hover {
-  color: red;
 }
 
 .casilla, .casillaTexto {
