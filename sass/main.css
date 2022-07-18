@@ -59,22 +59,6 @@ body {
   height: 100%;
 }
 
-.goTop {
-  width: 100%;
-}
-
-.goTopBtn {
-  position: absolute;
-  margin-top: 50px;
-  margin-left: 1800px;
-  color: white;
-  font-size: 35px;
-}
-
-.goTopBtn:hover {
-  color: red;
-}
-
 /*tienda*/
 .galeria {
   display: -webkit-box;
